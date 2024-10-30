@@ -1,0 +1,32 @@
+{
+  "name": "rediscache",
+  "version": "0.2.0",
+  "description": "Simple Node.js based Redis cache for storing large collections of data.",
+  "main": "dist/rediscache.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nholuongut/rediscache.git"
+  },
+  "keywords": [
+    "redis cache",
+    "cache"
+  ],
+  "author": "Nho Luong",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nholuongut/rediscache/issues"
+  },
+  "dependencies": {
+    "q": "~0.9.7",
+    "redis": "2.6.2"
+  },
+  "devDependencies": {
+    "express": "~3.4.3",
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "~0.7.0"
+  }
+}
